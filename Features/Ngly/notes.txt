@@ -1,4 +1,4 @@
 featurs will be here!
 
-You can download the embedding featurs from:
+You can download the embedding featurs based on Ngly dataset from:
 https://drive.google.com/drive/folders/1AZwTcOYgr0sMoR61LFoNwcCDrXHHEwYW?usp=sharing
