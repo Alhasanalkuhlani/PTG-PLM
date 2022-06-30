@@ -1,7 +1,7 @@
 # PTG-PLM
 Implementation of PTG-PLM: Predicting Post-Translational Glycosylation and Glycation Sites Using Protein Language Models and Deep Learning.
 ## Environment Setup
-All the implementation done using Python 3.7.13 on Google Colab Pro (https://colab.research.google.com) with GPUs (RAM 16g) and high RAM (28G).
+All the implementation done using Python 3.7.13 on Google Colab Pro (https://colab.research.google.com) with GPUs (RAM 16g) and high RAM (28G). Used packages installation can be done by:
 ``` 
 pip install -r requirements.txt
 ```
