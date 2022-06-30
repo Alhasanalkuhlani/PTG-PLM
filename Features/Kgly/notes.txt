@@ -1,4 +1,4 @@
 featurs will be here!
 
-You can download the embedding featurs from:
+You can download the embedding featurs based on Kgly dataset from:
 https://drive.google.com/drive/folders/11sCjlaI981EMem5Zr8PESYjjsgOryYLS?usp=sharing
