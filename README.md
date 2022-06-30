@@ -27,4 +27,7 @@ P56373,170
 P56373,194
 ```
 The first column "ID" represent the protein name or ID and the secod column "Position" represent the PTM positive site.
-#### 
+#### CNN Configuration
+The general parameter setting for CNN model can be found in "CNN_config.ini".
+##### Training
+
