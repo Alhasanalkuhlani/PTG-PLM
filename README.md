@@ -5,7 +5,7 @@ All the implementation done using Python 3.7.13 on Google Colab Pro (https://col
 ``` 
 pip install -r requirements.txt
 ```
-### Dataset Format
+## Dataset Format
 There are two files that should be prepared for training and prediction:
 * Protein sequences FASTA file sample:
 ```
@@ -27,9 +27,9 @@ P56373,170
 P56373,194
 ```
 The first column "ID" represent the protein name or ID and the secod column "Position" represent the PTM positive site.
-#### CNN Configuration
+## CNN Configuration
 The general parameter setting for CNN model can be found in "CNN_config.ini".
-##### Training
+## Training
 ```
 python train.py --BENCHMARKS_DIR=datasets/ --benchmark_name=N_gly --site=N --w=12 --PLM=ProtBert --config_file=CNN_config.ini --model_save_path=models/
 ```
@@ -37,7 +37,7 @@ For details of parameters, run:
 ```
 python train.py --help
 ```
-###### Prediction
+## Prediction
 ```
 python predict.py --BENCHMARKS_DIR=datasets/ --benchmark_name=N_gly --site=N --w=12 --PLM=ProtBert  --model_path=models/PTG-PLM_PROTBERT/
 ```
