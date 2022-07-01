@@ -42,7 +42,7 @@ def main():
 	parser.add_argument('--benchmark_name', type=str, default='N_gly', help='dataset name')
 	parser.add_argument('--site', default='N',type=str,help='PTM site residue(s) for more one residue can write as (\'X\', \'Y\')')
 	parser.add_argument('--w', default=12, type=int, help='number of residues that are surrounding the PTM residues')
-	parser.add_argument('--PLM', default='Esm-1b',type=str, help='used protein language model (ProtBert-BFD, ProtBert, ProtAlbert, ProtXlnet, ESM-1b, or TAPE)')
+	parser.add_argument('--PLM', default='ProtBert-BFD',type=str, help='used protein language model (ProtBert-BFD, ProtBert, ProtAlbert, ProtXlnet, ESM-1b, or TAPE)')
 	parser.add_argument('--model_path', default='models/',type=str, help='path of model for prediction')
 	parser.add_argument('--result_path', default='results/',type=str, help='path to save the prediction results')
 	args = parser.parse_args()
