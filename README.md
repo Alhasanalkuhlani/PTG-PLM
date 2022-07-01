@@ -33,7 +33,15 @@ The general parameter setting for CNN model can be found in "CNN_config.ini".
 ```
 python train.py --BENCHMARKS_DIR=datasets/ --benchmark_name=N_gly --site=N --w=12 --PLM=ProtBert --config_file=CNN_config.ini --model_save_path=models/
 ```
+For details of parameters, run:
+```
+python train.py --help
+```
 ###### Prediction
 ```
 python predict.py --BENCHMARKS_DIR=datasets/ --benchmark_name=N_gly --site=N --w=12 --PLM=ProtBert  --model_path=models/PTG-PLM_PROTBERT/
+```
+For details of parameters, run:
+```
+python predit.py --help
 ```
