@@ -45,5 +45,5 @@ For details of parameters, run:
 ```
 python predit.py --help
 ```
-## Citation
+
 
