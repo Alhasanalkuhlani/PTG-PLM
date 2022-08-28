@@ -36,10 +36,11 @@ def perf_measure(y_actual, y_hat):
 
 def get_models():
 	models = dict()
-	models['lr'] = LogisticRegression()
-	models['rf'] = RandomForestClassifier(random_state=3)
-	models['svm'] = SVC()
-	models['XGB'] = XGBClassifier(eval_metric='mlogloss')
+	models['lr'] = LogisticRegression(penalty='l2')
+	models['rf'] = RandomForestClassifier(random_state=3,n_estimators=100)
+	models['svm'] = SVC(kernel='rbf',C=100,gamma='scale')
+	models['XGB'] = XGBClassifier(ebooster ='gbtree',eval_metric='logloss',use_label_encoder =False,learning_rate =0.1,max_depth =5,
+             min_child_weight =5,subsample=0.9)
 	return models
 def ML(X_train,Y_train,X_test,Y_tes):
 	X_train_2 = X_train.reshape(X_train.shape[0], (X_train.shape[1]*X_train.shape[2]))
