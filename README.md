@@ -45,5 +45,8 @@ For details of parameters, run:
 ```
 python predit.py --help
 ```
-
+## Cite as
+```
+Alkuhlani A, Gad W, Roushdy M, Voskoglou MG, Salem A-bM. PTG-PLM: Predicting Post-Translational Glycosylation and Glycation Sites Using Protein Language Models and Deep Learning. Axioms. 2022; 11(9):469. https://doi.org/10.3390/axioms11090469
+```
 
